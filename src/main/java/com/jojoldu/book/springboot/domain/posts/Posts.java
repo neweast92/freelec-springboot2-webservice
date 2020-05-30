@@ -23,8 +23,6 @@ public class Posts {
 
     private String author;
 
-    private String regDate;
-
     @Builder
     public Posts(String title, String content, String author){
         this.title = title;
